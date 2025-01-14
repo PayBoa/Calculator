@@ -33,6 +33,12 @@
     color: white;
 }
 
+.btn-custom:hover {
+    font-size: 35px;
+    color: white;
+    background-color: #A6A6A6;
+}
+
 .all-clear {
     grid-area: 1 / 1 / 2 / 4;
     border-radius: 35px;
@@ -40,12 +46,22 @@
     color: white;
   }
 
+.all-clear:hover {
+    color: white;
+    background-color: dimgrey;
+}
+
 .zero {
     grid-area: 5 / 1 / 6 / 3;
     border-radius: 35px;
     font-size: 35px;
     color: white;
   }
+
+.zero:hover {
+    color: white;
+    background-color: #A6A6A6;
+}
 
 .orange {
     background-color: #FF9F0A
@@ -58,4 +74,6 @@
 .lightgrey {
     background-color: #A6A6A6
 }
+
+
 
